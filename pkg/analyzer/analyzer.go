@@ -19,6 +19,7 @@ var Analyzer = &analysis.Analyzer{
 var importWhitelist = map[string]struct{}{
 	`"github.com/TheMightyGit/marv/marvlib"`:   {},
 	`"github.com/TheMightyGit/marv/marvtypes"`: {},
+	`"github.com/TheMightyGit/cart/cartridge"`: {},
 	`"image"`:     {},
 	`"strings"`:   {},
 	`"math/rand"`: {},
