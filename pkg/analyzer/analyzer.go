@@ -28,6 +28,7 @@ var importWhitelist = map[string]struct{}{
 	`"strconv"`:   {},
 	`"embed"`:     {},
 	`"time"`:      {},
+	`"fmt"`:       {},
 }
 
 func run(pass *analysis.Pass) (interface{}, error) {
