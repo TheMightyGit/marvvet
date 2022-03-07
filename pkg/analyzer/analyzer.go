@@ -23,6 +23,7 @@ var importWhitelist = map[string]struct{}{
 	`"image"`:     {},
 	`"strings"`:   {},
 	`"math/rand"`: {},
+	`"math"`:      {},
 	`"sort"`:      {},
 	`"strconv"`:   {},
 	`"embed"`:     {},
